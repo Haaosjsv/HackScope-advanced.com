@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HackScope - The Ultimate Hacking Search Engine</title>
+    <style>
+        /* General styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+            color: #ffffff;
+        }
+
+        /* Header styles */
+        header {
+            background: linear-gradient(to right, #00ff00, #00ffff);
+            text-align: center;
+            padding: 20px 0;
+            color: #101010;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .header-content {
+            margin: auto;
+            max-width: 900px;
+        }
+
+        .logo {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            color: #101010;
+        }
+
+        p {
+            font-size: 1.3rem;
+            color: #333333;
+        }
+
+        /* Main styles */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+
+        .search-container {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 255, 0, 0.2);
+            border-radius: 15px;
+            box-shadow: 0px 8px 15px rgba(0, 255, 0, 0.5);
+        }
+
+        .search-form input {
+            width: 60%;
+            padding: 12px 20px;
+            font-size: 1.2rem;
+            border: 2px solid #00ff00;
+            border-radius: 5px;
+            outline: none;
+            margin-bottom: 10px;
+        }
+
+        .search-form input:focus {
+            border-color: #00ffff;
+            box-shadow: 0px 0px 10px #00ffff;
+        }
+
+        .search-form button {
+            padding: 12px 25px;
+            font-size: 1.2rem;
+            color: #101010;
+            background: #00ff00;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+        }
+
+        .search-form button:hover {
+            background: #00ffff;
+            color: #000000;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #00ff00;
+            color: #000000;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="hackscope-logo.png" alt="HackScope Logo" class="logo">
+            <h1>HackScope</h1>
+            <p>Your ultimate hacking search engine for tools, guides, and resources.</p>
+        </div>
+    </header>
+    <main>
+        <div        class="search-container">
+           
+                <img src="A_hacking-themed_logo_for_a_website_named_'HackSco.png'" alt="HackScope Logo" style="max-width: 50%; border: 3px solid #00ff00; border-radius: 10px; box-shadow: 0 0 20px #00ff00;">
+            
+            
+            <!-- Search form that redirects to Google with the query -->
+            <form class="search-form" action="https://www.google.com/search" method="get">
+                <input type="text" name="q" placeholder="Search hacking tools, guides, or exploits..." required>
+                <button type="submit">Search</button>
+            </form>
+            
+            
+            
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 HackScope. Designed for hackers, by hackers.</p>
+    </footer>
+</body>
+</html>
